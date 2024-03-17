@@ -1,0 +1,158 @@
+/* @import url(font-family-page-2.css); */
+/* body{
+    font-family: "Proxima Nova",sans-serif;
+    color:#2b2929;
+    font-weight: 400;
+} */
+
+/* ================================================ */
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+@import url(null.css);
+body{
+    font-family: "roboto",sans-serif;
+    font-size: 20px;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header__container {
+}
+.header__list {
+}
+.header__item {
+    text-align: center;
+}
+.header__link {
+    color: cadetblue;
+    font-size: 50px;
+}
+
+
+
+.top__container {
+}
+.top__title {
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 4px 4px 10px black, -4px -4px 10px red;
+    font-weight: 900;
+}
+.top__info {
+    text-align: right;
+    text-decoration: underline dotted red;
+    font-weight: 600;
+    
+
+
+}
+.top__test-1 {
+    text-transform: uppercase;
+    color: royalblue;
+    text-decoration: overline dashed red;
+}
+.top__test-2 {
+    text-transform: lowercase;
+    color: rosybrown;
+    text-decoration: overline double red;
+    text-align: right;
+
+}
+.top__test-3 {
+    text-transform: capitalize;
+    color: blueviolet;
+    font-style: italic;
+    
+}
+.top__test-4 {
+    font-style:oblique;
+    font-weight: 900;
+    line-height: 1.875;
+    text-align: right;
+}
+.top__test-5 {
+    letter-spacing: 20px;
+    text-decoration: wavy underline burlywood;
+}
+.top__test-6 {
+    word-spacing: 20px;
+    text-decoration: line-through dashed rebeccapurple;
+    text-align: right;
+}
+.top__test-7 {
+
+}
+.top__test-8 {
+    text-align: right;
+font-weight: 500;
+text-decoration: underline double red;
+text-decoration-color: blueviolet;
+
+}
+.top__test-9 {
+    white-space: nowrap;
+}
+/* ============================== */
+
+
+.living-room__title {
+
+    line-height: 48px;
+    font-size: 40px;
+    text-shadow: 0px 4px 4px rgb(0, 0, 0, 0.5);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.living-room__image {
+margin-bottom: 40px;
+}
+.living-room__info-text {
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.living-room__sub-title {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.living-room__item {
+    line-height: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    margin-left: 50px;
+    
+}
+.living-room__item::before{
+content: '';
+position: absolute;
+left: -50px;
+top: 50%;
+transform: translate(0,-50%);
+width: 30px;
+height: 30px;
+background-image: url(../img/page-2/mark.jpg);
+}
+.living-room__text {
+    line-height: 30px;
+}
+.bad__container {
+    margin-top: 300px;
+}
+.bad__title {
+    font-size: 40px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 48px;
+  margin-bottom: 30px;
+}
+
+.bad__info-text {
+    line-height: 30px;
+    line-height: 30px;
+    
+}
+.bad-info-text__opacity{
+
+    color: rgb(43, 41, 41, 0.3);
+}
