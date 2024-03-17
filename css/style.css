@@ -17,19 +17,6 @@ body{
     margin: 0 auto;
     padding: 0 15px;
 }
-.header__container {
-}
-.header__list {
-}
-.header__item {
-    text-align: center;
-}
-.header__link {
-    color: cadetblue;
-    font-size: 50px;
-}
-
-
 
 .top__container {
 }
@@ -80,9 +67,7 @@ body{
     text-decoration: line-through dashed rebeccapurple;
     text-align: right;
 }
-.top__test-7 {
 
-}
 .top__test-8 {
     text-align: right;
 font-weight: 500;
